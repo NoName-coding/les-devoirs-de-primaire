@@ -1,5 +1,5 @@
 # les-devoirs-de-primaire
-Site permettant aux enfant en primaire de faire des exercices de maths/français et peut être plus par la suite
+Site permettant aux enfants en primaire de faire des exercices de maths/français et peut être plus par la suite
 
 # installation :
 1 - Téléchargez le code
