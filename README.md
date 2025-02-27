@@ -11,10 +11,14 @@ Site permettant aux enfants en primaire de faire des exercices de maths/françai
 # TODO
 1 - Créer un système de connexion avec profil
 
-2 - Utiliser une base de données
+2 - Améliorer le système de logs
 
-3 - Améliorer le système d'affichage des résultats (en fonction de l'utilisateur)
+3 - Utiliser une base de données
 
-4 - Ajouter la possibilités de configurer les exercices
+4 - Améliorer le système d'affichage des résultats (en fonction de l'utilisateur)
 
-5 - Création d'une application (back office ?) pour faire du text-to-speech
+5 - Ajouter la possibilités de configurer les exercices
+
+6 - Création d'une application (back office ?) pour faire du text-to-speech
+
+7 - Documentation complète du projet
