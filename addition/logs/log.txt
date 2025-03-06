@@ -1,0 +1,7 @@
+[27/02/2025 08h10m47s] - 127.0.0.1 : index.php
+[27/02/2025 08h10m50s] - 127.0.0.1 : question.php - test - Question numéro 1
+[27/02/2025 08h11m05s] - 127.0.0.1 : correction.php - test - Question numéro 1
+[27/02/2025 08h11m08s] - 127.0.0.1 : question.php - test - Question numéro 2
+[27/02/2025 08h11m23s] - 127.0.0.1 : correction.php - test - Question numéro 2
+[27/02/2025 08h11m24s] - 127.0.0.1 : question.php - test - Question numéro 3
+[27/02/2025 08h11m29s] - 127.0.0.1 : index.php
