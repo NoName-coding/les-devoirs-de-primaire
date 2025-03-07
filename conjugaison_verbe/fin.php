@@ -6,6 +6,19 @@
     log_adresse_ip("logs/log.txt","fin.php - ".$_SESSION['prenom']);
 
 	$_SESSION['origine']="fin";
+	// Insere le nombre de bonne réponse dans la base de données
+	$conn = new mysqli("localhost", "root", "", "les_devoirs_de_primaire");
+	$username = $_SESSION['username'];
+	$sql = "SELECT id FROM users WHERE username='$username'";
+	$result = $conn->query($sql);
+	$user = $result->fetch_assoc();
+	$user_id = $user['id'];
+	$exercise = "conjugaison_verbe";
+	$score = $_SESSION['nbBonneReponse'];
+	$date = date('Y-m-d H:i:s');
+    $sql = "INSERT INTO results (user_id, exercise, score, date) VALUES ('$user_id', '$exercise', '$score', '$date')";
+	$conn->query($sql);
+	$conn->close();
 ?>
 
 <!doctype html>

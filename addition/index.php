@@ -4,7 +4,7 @@
     log_adresse_ip("logs/log.txt","index.php");
 
 	session_start();
-	$_SESSION['nbMaxQuestions']=10;
+	$_SESSION['nbMaxQuestions']=1;
 	$_SESSION['nbQuestion']=0;
 	$_SESSION['nbBonneReponse']=0;
 	$_SESSION['prenom']="";
